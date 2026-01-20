@@ -101656,6 +101656,423 @@
               ]
             }
           ]
+        },
+        {
+          "id": "6",
+          "title": "DNS",
+          "content": [
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    {
+                      "text": "Red",
+                      "color": "red"
+                    },
+                    ": Attackers, Threats, Compromise, Malicious Actions"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Green",
+                      "color": "green"
+                    },
+                    ": DNS, Trust, Name-based Concepts, Legitimate Parameters"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Blue",
+                      "color": "blue"
+                    },
+                    ": Traditional Security, IP-based Concepts, Blocking, Old Methods"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Yellow",
+                      "color": "yellow"
+                    },
+                    ": Infrastructure, Technical Components, Changes, Dynamic Elements"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Introduction: The Shift from IP to DNS",
+              "parts": [
+                "Introduction: The Shift from IP to DNS"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "When discussing ",
+                {
+                  "text": "firewalls",
+                  "color": "blue"
+                },
+                ", they are traditionally used to ",
+                {
+                  "text": "block IPs",
+                  "color": "blue"
+                },
+                ", leading security teams to ",
+                {
+                  "text": "chase IPs",
+                  "color": "blue"
+                },
+                ". However, most ",
+                {
+                  "text": "real attacks",
+                  "color": "red"
+                },
+                " no longer focus on the ",
+                {
+                  "text": "IP address",
+                  "color": "blue"
+                },
+                " but rather on the ",
+                {
+                  "text": "DNS",
+                  "color": "green"
+                },
+                ". Welcome to this short discussion on ",
+                {
+                  "text": "DNS",
+                  "color": "green"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Traditional IP-Based Security",
+              "parts": [
+                "Traditional IP-Based Security"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Historically, we've relied on ",
+                {
+                  "text": "blocking IPs",
+                  "color": "blue"
+                },
+                ", ",
+                {
+                  "text": "network ranges",
+                  "color": "blue"
+                },
+                ", and ",
+                {
+                  "text": "geo-blocking countries",
+                  "color": "blue"
+                },
+                ". These methods were effective when ",
+                {
+                  "text": "attackers",
+                  "color": "red"
+                },
+                " remained in a fixed location."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Limitations of IP-Based Blocking",
+              "parts": [
+                "Limitations of IP-Based Blocking"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Today, ",
+                {
+                  "text": "IP addresses",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "constantly change",
+                  "color": "yellow"
+                },
+                " due to the dynamic nature of ",
+                {
+                  "text": "cloud infrastructure",
+                  "color": "yellow"
+                },
+                ". ",
+                {
+                  "text": "Attackers",
+                  "color": "red"
+                },
+                " frequently use ",
+                {
+                  "text": "VPNs",
+                  "color": "yellow"
+                },
+                ", ",
+                {
+                  "text": "compromised servers",
+                  "color": "red"
+                },
+                ", and ",
+                {
+                  "text": "residential proxies",
+                  "color": "yellow"
+                },
+                " to ",
+                {
+                  "text": "hide their IPs",
+                  "color": "red"
+                },
+                " and ",
+                {
+                  "text": "rotate them constantly",
+                  "color": "red"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The key insight is that ",
+                {
+                  "text": "users and systems don't think in IP",
+                  "color": "blue"
+                },
+                "; they ",
+                {
+                  "text": "think in names",
+                  "color": "green"
+                },
+                ". This is precisely where ",
+                {
+                  "text": "DNS",
+                  "color": "green"
+                },
+                " becomes critical."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "The Rise of DNS in Attacks",
+              "parts": [
+                "The Rise of DNS in Attacks"
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "DNS: The Foundation of Trust",
+              "parts": [
+                "DNS: The Foundation of Trust"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                {
+                  "text": "DNS",
+                  "color": "green"
+                },
+                " dictates ",
+                {
+                  "text": "where traffic goes",
+                  "color": "green"
+                },
+                ", ",
+                {
+                  "text": "which servers you trust",
+                  "color": "green"
+                },
+                ", and ",
+                {
+                  "text": "which services you communicate with",
+                  "color": "green"
+                },
+                ". It is the underlying ",
+                {
+                  "text": "trust mechanism",
+                  "color": "green"
+                },
+                " of the internet."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "How Attackers Exploit DNS",
+              "parts": [
+                "How Attackers Exploit DNS"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "If an ",
+                {
+                  "text": "attacker controls the DNS",
+                  "color": "red"
+                },
+                ", they don't need to ",
+                {
+                  "text": "block anything",
+                  "color": "blue"
+                },
+                ". They can simply ",
+                {
+                  "text": "redirect traffic",
+                  "color": "red"
+                },
+                " to an ",
+                {
+                  "text": "alternative site",
+                  "color": "red"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Real-World Example",
+              "parts": [
+                "Real-World Example"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Consider an employee attempting to access \"kk.com\". If the ",
+                {
+                  "text": "DNS is compromised",
+                  "color": "red"
+                },
+                ", it can ",
+                {
+                  "text": "silently point",
+                  "color": "red"
+                },
+                " to a ",
+                {
+                  "text": "phishing site",
+                  "color": "red"
+                },
+                ", a ",
+                {
+                  "text": "malware server",
+                  "color": "red"
+                },
+                ", or a ",
+                {
+                  "text": "fake login page",
+                  "color": "red"
+                },
+                ". In such scenarios, the ",
+                {
+                  "text": "IP address doesn't matter",
+                  "color": "blue"
+                },
+                "; the ",
+                {
+                  "text": "name does",
+                  "color": "green"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Why DNS Attacks are Challenging for Security Tools",
+              "parts": [
+                "Why DNS Attacks are Challenging for Security Tools"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                {
+                  "text": "Security tools",
+                  "color": "blue"
+                },
+                " often ",
+                {
+                  "text": "struggle",
+                  "color": "blue"
+                },
+                " with this paradigm shift. While ",
+                {
+                  "text": "IP-based controls",
+                  "color": "blue"
+                },
+                " contend with ",
+                {
+                  "text": "constant changes",
+                  "color": "yellow"
+                },
+                ", ",
+                {
+                  "text": "DNS-based attacks",
+                  "color": "red"
+                },
+                " often present themselves with ",
+                {
+                  "text": "stable and legitimate parameters",
+                  "color": "green"
+                },
+                ". The ",
+                {
+                  "text": "domain name",
+                  "color": "green"
+                },
+                " remains the same, but the ",
+                {
+                  "text": "destination",
+                  "color": "red"
+                },
+                " is silently shifted."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Conclusion: Targeting Trust",
+              "parts": [
+                "Conclusion: Targeting Trust"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Ultimately, ",
+                {
+                  "text": "IP addresses are infrastructure",
+                  "color": "yellow"
+                },
+                ", but ",
+                {
+                  "text": "DNS is trust",
+                  "color": "green"
+                },
+                ". ",
+                {
+                  "text": "Attackers",
+                  "color": "red"
+                },
+                " will always target the ",
+                {
+                  "text": "trust mechanism",
+                  "color": "green"
+                },
+                " first."
+              ]
+            }
+          ]
         }
       ]
     },
