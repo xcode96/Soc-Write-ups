@@ -101384,7 +101384,7 @@
               "type": "hr"
             },
             {
-              "type": "h2",
+              "type": "h3",
               "text": "The Uncomfortable Truth About Cyber Breaches",
               "parts": [
                 "The Uncomfortable Truth About Cyber Breaches"
@@ -102070,6 +102070,490 @@
                   "color": "green"
                 },
                 " first."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "title": "EDR",
+          "content": [
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    {
+                      "text": "EDR/Security Tools",
+                      "color": "blue"
+                    },
+                    ": Refers to Endpoint Detection and Response and similar security mechanisms."
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Attacker Actions/Techniques",
+                      "color": "red"
+                    },
+                    ": Describes methods, behaviors, and outcomes of malicious actors."
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Limitations/Challenges",
+                      "color": "yellow"
+                    },
+                    ": Highlights the inherent weaknesses or blind spots of EDR."
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Normal Operations/Approved Tools",
+                      "color": "purple"
+                    },
+                    ": Refers to legitimate user activities, credentials, and whitelisted tools."
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Security Principles/Human Insight",
+                      "color": "green"
+                    },
+                    ": Emphasizes the broader security context, visibility, and the role of human analysis."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "hr"
+            },
+            {
+              "type": "h3",
+              "text": "EDR Limitations: Why Breaches Still Happen",
+              "parts": [
+                "EDR Limitations: Why Breaches Still Happen"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " is not a ",
+                {
+                  "text": "shield",
+                  "color": "yellow"
+                },
+                ", it is a ",
+                {
+                  "text": "camera",
+                  "color": "green"
+                },
+                ". An ",
+                {
+                  "text": "attacker",
+                  "color": "red"
+                },
+                " knows exactly how to move when the ",
+                {
+                  "text": "camera",
+                  "color": "green"
+                },
+                " is watching. People install ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " and assume we are covered now, but ",
+                {
+                  "text": "breaches",
+                  "color": "red"
+                },
+                " still happen, even with top ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                ", because most real-world ",
+                {
+                  "text": "attacks",
+                  "color": "red"
+                },
+                " don't look like ",
+                {
+                  "text": "malware",
+                  "color": "red"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "Reasons EDR Misses Attacks",
+              "parts": [
+                "Reasons EDR Misses Attacks"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "1. Attackers Log In, Not Hack",
+              "parts": [
+                "1. Attackers Log In, Not Hack"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The first reason is that ",
+                {
+                  "text": "attackers",
+                  "color": "red"
+                },
+                " always ",
+                {
+                  "text": "log in",
+                  "color": "purple"
+                },
+                " instead of ",
+                {
+                  "text": "hack",
+                  "color": "red"
+                },
+                ". There's a difference. So ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " is great for catching a ",
+                {
+                  "text": "suspicious file",
+                  "color": "red"
+                },
+                " or ",
+                {
+                  "text": "abnormal behavior",
+                  "color": "red"
+                },
+                ". However, if the ",
+                {
+                  "text": "attacker",
+                  "color": "red"
+                },
+                " has a ",
+                {
+                  "text": "valid credential",
+                  "color": "purple"
+                },
+                ", they can ",
+                {
+                  "text": "log in normally",
+                  "color": "purple"
+                },
+                ", open ",
+                {
+                  "text": "Outlook",
+                  "color": "purple"
+                },
+                ", download a ",
+                {
+                  "text": "file",
+                  "color": "purple"
+                },
+                ", and use ",
+                {
+                  "text": "approved tools",
+                  "color": "purple"
+                },
+                ". To ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                ", this can look like a ",
+                {
+                  "text": "normal employee day",
+                  "color": "purple"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "2. Abuse of Allow Lists",
+              "parts": [
+                "2. Abuse of Allow Lists"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The second reason is that ",
+                {
+                  "text": "allow lists",
+                  "color": "purple"
+                },
+                " create a ",
+                {
+                  "text": "safe line",
+                  "color": "yellow"
+                },
+                ". To reduce ",
+                {
+                  "text": "noise",
+                  "color": "yellow"
+                },
+                ", teams ",
+                {
+                  "text": "whitelist",
+                  "color": "purple"
+                },
+                " items like ",
+                {
+                  "text": "IT scripts",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "remote tools",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "admin utilities",
+                  "color": "purple"
+                },
+                ", and ",
+                {
+                  "text": "software deployment agents",
+                  "color": "purple"
+                },
+                ". ",
+                {
+                  "text": "Attackers",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "abuse these same tools",
+                  "color": "red"
+                },
+                ". They operate within the ",
+                {
+                  "text": "approved tools",
+                  "color": "purple"
+                },
+                " and, based on that, try to perform ",
+                {
+                  "text": "further hacking",
+                  "color": "red"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "3. Inability to Read Business Intent",
+              "parts": [
+                "3. Inability to Read Business Intent"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The third reason is that ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " cannot read the ",
+                {
+                  "text": "business intent",
+                  "color": "yellow"
+                },
+                ". ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " can tell you that ",
+                {
+                  "text": "PowerShell ran",
+                  "color": "purple"
+                },
+                ", but it cannot tell you if this ",
+                {
+                  "text": "finance user",
+                  "color": "purple"
+                },
+                " or ",
+                {
+                  "text": "administrator",
+                  "color": "purple"
+                },
+                " ",
+                "*should*",
+                " run it. Sometimes ",
+                {
+                  "text": "PowerShell runs at midnight",
+                  "color": "purple"
+                },
+                ". Should this ",
+                {
+                  "text": "intern",
+                  "color": "purple"
+                },
+                " access a ",
+                {
+                  "text": "domain controller",
+                  "color": "purple"
+                },
+                " or someone else? Is this ",
+                {
+                  "text": "action normal for the roles",
+                  "color": "purple"
+                },
+                " or something else? That ",
+                {
+                  "text": "intent",
+                  "color": "yellow"
+                },
+                ", ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " does not have it."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "4. Attackers Go Slow",
+              "parts": [
+                "4. Attackers Go Slow"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The fourth reason is that ",
+                {
+                  "text": "attackers",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "go slow",
+                  "color": "red"
+                },
+                ". ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " catches ",
+                {
+                  "text": "spikes and patterns",
+                  "color": "yellow"
+                },
+                ", so ",
+                {
+                  "text": "attackers",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "slow down",
+                  "color": "red"
+                },
+                ": ",
+                {
+                  "text": "one action per day",
+                  "color": "red"
+                },
+                ", ",
+                {
+                  "text": "small data pulls",
+                  "color": "red"
+                },
+                ", ",
+                {
+                  "text": "long dwell downtime",
+                  "color": "red"
+                },
+                ", and ",
+                {
+                  "text": "nothing crosses the threshold",
+                  "color": "yellow"
+                },
+                ". There are ",
+                {
+                  "text": "no dramatic signals",
+                  "color": "yellow"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Key Takeaway",
+              "parts": [
+                "Key Takeaway"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " does not miss ",
+                {
+                  "text": "attacks",
+                  "color": "red"
+                },
+                " because it is ",
+                {
+                  "text": "weak",
+                  "color": "yellow"
+                },
+                ". It misses them because ",
+                {
+                  "text": "attackers",
+                  "color": "red"
+                },
+                " act like a ",
+                {
+                  "text": "trusted user",
+                  "color": "purple"
+                },
+                ". Definitely, ",
+                {
+                  "text": "EDR",
+                  "color": "blue"
+                },
+                " gives ",
+                {
+                  "text": "visibility",
+                  "color": "green"
+                },
+                ", but ",
+                {
+                  "text": "human",
+                  "color": "green"
+                },
+                " gives ",
+                {
+                  "text": "judgment",
+                  "color": "green"
+                },
+                "."
               ]
             }
           ]
