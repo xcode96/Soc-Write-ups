@@ -102557,6 +102557,17 @@
               ]
             }
           ]
+        },
+        {
+          "id": "8",
+          "title": "AI attack",
+          "content": [
+            {
+              "type": "img",
+              "alt": "cheatsheet",
+              "src": "https://github.com/user-attachments/assets/8d2fc50d-b8dd-4902-98ef-02193655c2d7"
+            }
+          ]
         }
       ]
     },
