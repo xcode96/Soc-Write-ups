@@ -102568,6 +102568,623 @@
               "src": "https://github.com/user-attachments/assets/8d2fc50d-b8dd-4902-98ef-02193655c2d7"
             }
           ]
+        },
+        {
+          "id": "9",
+          "title": "Soc IOC",
+          "content": [
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    {
+                      "text": "Green",
+                      "color": "green"
+                    },
+                    ": Core Concepts & Goals"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Red",
+                      "color": "red"
+                    },
+                    ": Pitfalls & Inefficiencies"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Blue",
+                      "color": "blue"
+                    },
+                    ": Categories & Types"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Purple",
+                      "color": "purple"
+                    },
+                    ": Specific Examples & Details"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Yellow",
+                      "color": "yellow"
+                    },
+                    ": Workflow Steps"
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Fuchsia",
+                      "color": "fuchsia"
+                    },
+                    ": Correlation & Contextual Data"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h2",
+              "text": "From Alerts to Indicators: A Professional's Approach",
+              "parts": [
+                "From Alerts to Indicators: A Professional's Approach"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Many ",
+                {
+                  "text": "SOC",
+                  "color": "red"
+                },
+                " teams often get overwhelmed chasing individual ",
+                {
+                  "text": "alerts",
+                  "color": "red"
+                },
+                ". Professionals, however, adopt a different strategy: they transform a single ",
+                {
+                  "text": "lead",
+                  "color": "green"
+                },
+                " into a comprehensive ",
+                {
+                  "text": "indicator",
+                  "color": "green"
+                },
+                "."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "The Problem with Single IOCs",
+              "parts": [
+                "The Problem with Single IOCs"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The reality is that a ",
+                {
+                  "text": "single IOC",
+                  "color": "red"
+                },
+                ", such as ",
+                {
+                  "text": "one IP",
+                  "color": "red"
+                },
+                " or ",
+                {
+                  "text": "one hash",
+                  "color": "red"
+                },
+                ", frequently becomes irrelevant quickly because ",
+                {
+                  "text": "attack patterns get changed",
+                  "color": "red"
+                },
+                ". This often leads to confusion and wasted effort."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "The Professional's Workflow",
+              "parts": [
+                "The Professional's Workflow"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "To effectively combat evolving threats, a structured approach is essential."
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "{Step 1}[yellow]: Start with Leads",
+              "parts": [
+                {
+                  "text": "Step 1",
+                  "color": "yellow"
+                },
+                ": Start with Leads"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The process begins by identifying ",
+                {
+                  "text": "leads",
+                  "color": "green"
+                },
+                ", which can be categorized as internal or external."
+              ]
+            },
+            {
+              "type": "h5",
+              "text": "{Internal Leads}[blue]",
+              "parts": [
+                {
+                  "text": "Internal Leads",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "These originate from within your environment. Examples include:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    "Checking for ",
+                    {
+                      "text": "EDR alerts",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Investigating ",
+                    {
+                      "text": "weird logins",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Identifying ",
+                    {
+                      "text": "new admin accounts",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Detecting ",
+                    {
+                      "text": "suspicious PowerShell",
+                      "color": "purple"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h5",
+              "text": "{External Leads}[blue]",
+              "parts": [
+                {
+                  "text": "External Leads",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "These come from outside sources, primarily ",
+                {
+                  "text": "threat intelligence",
+                  "color": "purple"
+                },
+                ". They provide insights into:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    "Malicious ",
+                    {
+                      "text": "domains",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Known ",
+                    {
+                      "text": "malware families",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Tactics, Techniques, and Procedures (TTPs)",
+                      "color": "purple"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "{Step 2}[yellow]: Break Down Indicators",
+              "parts": [
+                {
+                  "text": "Step 2",
+                  "color": "yellow"
+                },
+                ": Break Down Indicators"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Once leads are identified, the next step is to ",
+                {
+                  "text": "break the indicators into types",
+                  "color": "green"
+                },
+                " to build a broader picture."
+              ]
+            },
+            {
+              "type": "h5",
+              "text": "{Network Indicators}[blue]",
+              "parts": [
+                {
+                  "text": "Network Indicators",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "These focus on network-level observations:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    {
+                      "text": "IP indicators",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Malicious ",
+                    {
+                      "text": "domains",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Suspicious ",
+                    {
+                      "text": "URL paths",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Unusual ports",
+                      "color": "purple"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h5",
+              "text": "{Host Indicators}[blue]",
+              "parts": [
+                {
+                  "text": "Host Indicators",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "These relate to activities on endpoints:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    {
+                      "text": "File changes",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Suspicious ",
+                    {
+                      "text": "process names",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Unusual ",
+                    {
+                      "text": "command lines",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Compromised ",
+                    {
+                      "text": "devices",
+                      "color": "purple"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h5",
+              "text": "{Identity Indicators}[blue]",
+              "parts": [
+                {
+                  "text": "Identity Indicators",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "These focus on user and account behavior:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    "Which ",
+                    {
+                      "text": "user's device has been logged in",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Anomalous login patterns"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h5",
+              "text": "{Email Indicators}[blue]",
+              "parts": [
+                {
+                  "text": "Email Indicators",
+                  "color": "blue"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "These involve email-related artifacts:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    "Suspicious ",
+                    {
+                      "text": "subjects",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Malicious ",
+                    {
+                      "text": "senders",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "Dangerous ",
+                    {
+                      "text": "attachment names",
+                      "color": "purple"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "{Step 3}[yellow]: Search and Correlate",
+              "parts": [
+                {
+                  "text": "Step 3",
+                  "color": "yellow"
+                },
+                ": Search and Correlate"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "The final step involves ",
+                {
+                  "text": "searching each indicator across the logs",
+                  "color": "green"
+                },
+                ". Crucially, you must also ",
+                {
+                  "text": "search the nearby facts",
+                  "color": "fuchsia"
+                },
+                " to uncover hidden connections and the full scope of an incident. This includes looking for:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    "The ",
+                    {
+                      "text": "same user",
+                      "color": "fuchsia"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "The ",
+                    {
+                      "text": "same host",
+                      "color": "fuchsia"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "The ",
+                    {
+                      "text": "same time window",
+                      "color": "fuchsia"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "The ",
+                    {
+                      "text": "same subnet",
+                      "color": "fuchsia"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    "The ",
+                    {
+                      "text": "same parent process",
+                      "color": "fuchsia"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "This comprehensive correlation is how you ",
+                {
+                  "text": "find the hidden spread",
+                  "color": "green"
+                },
+                " of an attack."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Key Takeaways",
+              "parts": [
+                "Key Takeaways"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Remember, ",
+                {
+                  "text": "alerts are noise",
+                  "color": "red"
+                },
+                " if not properly investigated. ",
+                {
+                  "text": "Leads are clues",
+                  "color": "green"
+                },
+                ", and ",
+                {
+                  "text": "indicators are how you scale the hunt",
+                  "color": "green"
+                },
+                ". The ultimate ",
+                {
+                  "text": "goal is not one detection",
+                  "color": "red"
+                },
+                "; the ",
+                {
+                  "text": "goal is a scope",
+                  "color": "green"
+                },
+                " that reveals the full extent of a compromise."
+              ]
+            }
+          ]
         }
       ]
     },
