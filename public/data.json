@@ -102582,7 +102582,7 @@
                       "text": "Green",
                       "color": "green"
                     },
-                    ": Core Concepts & Goals"
+                    ": Lead. Indicator. Hunt. Scope. Clues. Spread."
                   ]
                 },
                 {
@@ -102591,7 +102591,7 @@
                       "text": "Red",
                       "color": "red"
                     },
-                    ": Pitfalls & Inefficiencies"
+                    ": SOC. Alerts. Chase. IOC. IP. Hash. Die. Confused. Attack. Pattern. Changed. Noise. Detection."
                   ]
                 },
                 {
@@ -102600,7 +102600,7 @@
                       "text": "Blue",
                       "color": "blue"
                     },
-                    ": Categories & Types"
+                    ": Internal. External. Network. Host. Identity. Emails. Type."
                   ]
                 },
                 {
@@ -102609,7 +102609,7 @@
                       "text": "Purple",
                       "color": "purple"
                     },
-                    ": Specific Examples & Details"
+                    ": EDR. Logins. Admin. Accounts. PowerShell. Threat. Intels. Domain. Malware. Family. TTP. IP. URL. Path. Port. File. Process. Name. Command. Line. Devices. User's. Device. Subject. Sender. Attachment."
                   ]
                 },
                 {
@@ -102618,7 +102618,7 @@
                       "text": "Yellow",
                       "color": "yellow"
                     },
-                    ": Workflow Steps"
+                    ": Step one. Step two. Step three."
                   ]
                 },
                 {
@@ -102627,37 +102627,126 @@
                       "text": "Fuchsia",
                       "color": "fuchsia"
                     },
-                    ": Correlation & Contextual Data"
+                    ": Same user. Same host. Same time window. Same subnet. Same parent process. Nearby facts."
                   ]
                 }
               ]
             },
             {
               "type": "h2",
-              "text": "From Alerts to Indicators: A Professional's Approach",
+              "text": "SOC Alerts. Professional.",
               "parts": [
-                "From Alerts to Indicators: A Professional's Approach"
+                "SOC Alerts. Professional."
               ]
             },
             {
               "type": "p",
               "parts": [
-                "Many ",
                 {
                   "text": "SOC",
                   "color": "red"
                 },
-                " teams often get overwhelmed chasing individual ",
+                " ",
                 {
                   "text": "alerts",
                   "color": "red"
                 },
-                ". Professionals, however, adopt a different strategy: they transform a single ",
+                ". ",
+                {
+                  "text": "SOC",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "people",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "always",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "down",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "because",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "of",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "their",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "chase",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "alert",
+                  "color": "red"
+                },
+                ". ",
+                {
+                  "text": "Professional",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "do",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "something",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "different",
+                  "color": "green"
+                },
+                ". ",
+                {
+                  "text": "They",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "turn",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "one",
+                  "color": "green"
+                },
+                " ",
                 {
                   "text": "lead",
                   "color": "green"
                 },
-                " into a comprehensive ",
+                " ",
+                {
+                  "text": "into",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "green"
+                },
+                " ",
                 {
                   "text": "indicator",
                   "color": "green"
@@ -102667,78 +102756,285 @@
             },
             {
               "type": "h3",
-              "text": "The Problem with Single IOCs",
+              "text": "Truth: Single IOC.",
               "parts": [
-                "The Problem with Single IOCs"
+                "Truth: Single IOC."
               ]
             },
             {
               "type": "p",
               "parts": [
-                "The reality is that a ",
                 {
-                  "text": "single IOC",
+                  "text": "Here",
                   "color": "red"
                 },
-                ", such as ",
+                " ",
                 {
-                  "text": "one IP",
+                  "text": "is",
                   "color": "red"
                 },
-                " or ",
+                " ",
                 {
-                  "text": "one hash",
+                  "text": "the",
                   "color": "red"
                 },
-                ", frequently becomes irrelevant quickly because ",
+                " ",
                 {
-                  "text": "attack patterns get changed",
+                  "text": "truth",
                   "color": "red"
                 },
-                ". This often leads to confusion and wasted effort."
+                ": ",
+                {
+                  "text": "a",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "single",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "IOC",
+                  "color": "red"
+                },
+                ", ",
+                {
+                  "text": "like",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "one",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "IP",
+                  "color": "red"
+                },
+                ", ",
+                {
+                  "text": "one",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "hash",
+                  "color": "red"
+                },
+                ", ",
+                {
+                  "text": "always",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "die",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "first",
+                  "color": "red"
+                },
+                ". ",
+                {
+                  "text": "This",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "where",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "people",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "get",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "confused",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "because",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "attack",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "pattern",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "get",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "changed",
+                  "color": "red"
+                },
+                "."
               ]
             },
             {
               "type": "h3",
-              "text": "The Professional's Workflow",
+              "text": "What Need Done?",
               "parts": [
-                "The Professional's Workflow"
+                "What Need Done?"
               ]
             },
             {
               "type": "p",
               "parts": [
-                "To effectively combat evolving threats, a structured approach is essential."
+                {
+                  "text": "So",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "what",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "need",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "to",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "be",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "done",
+                  "color": "yellow"
+                },
+                "?"
               ]
             },
             {
               "type": "h4",
-              "text": "{Step 1}[yellow]: Start with Leads",
+              "text": "{Step one}[yellow]: Lead.",
               "parts": [
                 {
-                  "text": "Step 1",
+                  "text": "Step one",
                   "color": "yellow"
                 },
-                ": Start with Leads"
+                ": Lead."
               ]
             },
             {
               "type": "p",
               "parts": [
-                "The process begins by identifying ",
                 {
-                  "text": "leads",
+                  "text": "Start",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "with",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "lead",
                   "color": "green"
                 },
-                ", which can be categorized as internal or external."
+                ". ",
+                {
+                  "text": "Now",
+                  "color": "green"
+                },
+                ", ",
+                {
+                  "text": "what",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "lead",
+                  "color": "green"
+                },
+                "? ",
+                {
+                  "text": "We",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "called",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "as",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "an",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "internal",
+                  "color": "blue"
+                },
+                " ",
+                {
+                  "text": "lead",
+                  "color": "green"
+                },
+                "."
               ]
             },
             {
               "type": "h5",
-              "text": "{Internal Leads}[blue]",
+              "text": "{Internal Lead}[blue]",
               "parts": [
                 {
-                  "text": "Internal Leads",
+                  "text": "Internal Lead",
                   "color": "blue"
                 }
               ]
@@ -102746,69 +103042,11 @@
             {
               "type": "p",
               "parts": [
-                "These originate from within your environment. Examples include:"
-              ]
-            },
-            {
-              "type": "ul",
-              "items": [
                 {
-                  "parts": [
-                    "Checking for ",
-                    {
-                      "text": "EDR alerts",
-                      "color": "purple"
-                    }
-                  ]
-                },
-                {
-                  "parts": [
-                    "Investigating ",
-                    {
-                      "text": "weird logins",
-                      "color": "purple"
-                    }
-                  ]
-                },
-                {
-                  "parts": [
-                    "Identifying ",
-                    {
-                      "text": "new admin accounts",
-                      "color": "purple"
-                    }
-                  ]
-                },
-                {
-                  "parts": [
-                    "Detecting ",
-                    {
-                      "text": "suspicious PowerShell",
-                      "color": "purple"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "h5",
-              "text": "{External Leads}[blue]",
-              "parts": [
-                {
-                  "text": "External Leads",
-                  "color": "blue"
-                }
-              ]
-            },
-            {
-              "type": "p",
-              "parts": [
-                "These come from outside sources, primarily ",
-                {
-                  "text": "threat intelligence",
+                  "text": "Like",
                   "color": "purple"
                 },
-                ". They provide insights into:"
+                ":"
               ]
             },
             {
@@ -102816,18 +103054,56 @@
               "items": [
                 {
                   "parts": [
-                    "Malicious ",
                     {
-                      "text": "domains",
+                      "text": "Check",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "for",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "the",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "EDR",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "alerts",
                       "color": "purple"
                     }
                   ]
                 },
                 {
                   "parts": [
-                    "Known ",
                     {
-                      "text": "malware families",
+                      "text": "Check",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "for",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "the",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "weird",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "logins",
                       "color": "purple"
                     }
                   ]
@@ -102835,7 +103111,30 @@
                 {
                   "parts": [
                     {
-                      "text": "Tactics, Techniques, and Procedures (TTPs)",
+                      "text": "New",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "admin",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "accounts",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Suspicious",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "PowerShell",
                       "color": "purple"
                     }
                   ]
@@ -102843,25 +103142,269 @@
               ]
             },
             {
-              "type": "h4",
-              "text": "{Step 2}[yellow]: Break Down Indicators",
+              "type": "h5",
+              "text": "{External Lead}[blue]",
               "parts": [
                 {
-                  "text": "Step 2",
-                  "color": "yellow"
-                },
-                ": Break Down Indicators"
+                  "text": "External Lead",
+                  "color": "blue"
+                }
               ]
             },
             {
               "type": "p",
               "parts": [
-                "Once leads are identified, the next step is to ",
                 {
-                  "text": "break the indicators into types",
+                  "text": "Second",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "thing",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "you",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "have",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "to",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "check",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "external",
+                  "color": "blue"
+                },
+                " ",
+                {
+                  "text": "lead",
                   "color": "green"
                 },
-                " to build a broader picture."
+                ". ",
+                {
+                  "text": "Example",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "like",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "threat",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "intels",
+                  "color": "purple"
+                },
+                ". ",
+                {
+                  "text": "They",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "just",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "say",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "like",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "what",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "a",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "domain",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "what",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "a",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "malware",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "family",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "what",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "a",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "TTP",
+                  "color": "purple"
+                },
+                "?"
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "{Step two}[yellow]: Break Indicators.",
+              "parts": [
+                {
+                  "text": "Step two",
+                  "color": "yellow"
+                },
+                ": Break Indicators."
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                {
+                  "text": "Then",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "you",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "have",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "to",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "move",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "to",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "step",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "two",
+                  "color": "yellow"
+                },
+                ", ",
+                {
+                  "text": "where",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "you",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "have",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "to",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "break",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "indicators",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "into",
+                  "color": "blue"
+                },
+                " ",
+                {
+                  "text": "type",
+                  "color": "blue"
+                },
+                "."
               ]
             },
             {
@@ -102877,7 +103420,11 @@
             {
               "type": "p",
               "parts": [
-                "These focus on network-level observations:"
+                {
+                  "text": "Like",
+                  "color": "purple"
+                },
+                ":"
               ]
             },
             {
@@ -102886,25 +103433,12 @@
                 {
                   "parts": [
                     {
-                      "text": "IP indicators",
+                      "text": "IP",
                       "color": "purple"
-                    }
-                  ]
-                },
-                {
-                  "parts": [
-                    "Malicious ",
+                    },
+                    " ",
                     {
-                      "text": "domains",
-                      "color": "purple"
-                    }
-                  ]
-                },
-                {
-                  "parts": [
-                    "Suspicious ",
-                    {
-                      "text": "URL paths",
+                      "text": "indicators",
                       "color": "purple"
                     }
                   ]
@@ -102912,7 +103446,33 @@
                 {
                   "parts": [
                     {
-                      "text": "Unusual ports",
+                      "text": "Domain",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "URL",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "path",
+                      "color": "purple"
+                    }
+                  ]
+                },
+                {
+                  "parts": [
+                    {
+                      "text": "Unusual",
+                      "color": "purple"
+                    },
+                    " ",
+                    {
+                      "text": "port",
                       "color": "purple"
                     }
                   ]
@@ -102932,47 +103492,96 @@
             {
               "type": "p",
               "parts": [
-                "These relate to activities on endpoints:"
-              ]
-            },
-            {
-              "type": "ul",
-              "items": [
                 {
-                  "parts": [
-                    {
-                      "text": "File changes",
-                      "color": "purple"
-                    }
-                  ]
+                  "text": "Then",
+                  "color": "purple"
                 },
+                " ",
                 {
-                  "parts": [
-                    "Suspicious ",
-                    {
-                      "text": "process names",
-                      "color": "purple"
-                    }
-                  ]
+                  "text": "you",
+                  "color": "purple"
                 },
+                " ",
                 {
-                  "parts": [
-                    "Unusual ",
-                    {
-                      "text": "command lines",
-                      "color": "purple"
-                    }
-                  ]
+                  "text": "have",
+                  "color": "purple"
                 },
+                " ",
                 {
-                  "parts": [
-                    "Compromised ",
-                    {
-                      "text": "devices",
-                      "color": "purple"
-                    }
-                  ]
-                }
+                  "text": "to",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "look",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "for",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "host",
+                  "color": "blue"
+                },
+                ". ",
+                {
+                  "text": "What",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "a",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "file",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "change",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "process",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "name",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "command",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "line",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "devices",
+                  "color": "purple"
+                },
+                "?"
               ]
             },
             {
@@ -102988,34 +103597,94 @@
             {
               "type": "p",
               "parts": [
-                "These focus on user and account behavior:"
-              ]
-            },
-            {
-              "type": "ul",
-              "items": [
                 {
-                  "parts": [
-                    "Which ",
-                    {
-                      "text": "user's device has been logged in",
-                      "color": "purple"
-                    }
-                  ]
+                  "text": "And",
+                  "color": "purple"
                 },
+                " ",
                 {
-                  "parts": [
-                    "Anomalous login patterns"
-                  ]
-                }
+                  "text": "then",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "look",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "for",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "identity",
+                  "color": "blue"
+                },
+                ", ",
+                {
+                  "text": "which",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "kind",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "of",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "a",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "user's",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "device",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "has",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "been",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "logged",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "in",
+                  "color": "purple"
+                },
+                "?"
               ]
             },
             {
               "type": "h5",
-              "text": "{Email Indicators}[blue]",
+              "text": "{Emails}[blue]",
               "parts": [
                 {
-                  "text": "Email Indicators",
+                  "text": "Emails",
                   "color": "blue"
                 }
               ]
@@ -103023,66 +103692,222 @@
             {
               "type": "p",
               "parts": [
-                "These involve email-related artifacts:"
-              ]
-            },
-            {
-              "type": "ul",
-              "items": [
                 {
-                  "parts": [
-                    "Suspicious ",
-                    {
-                      "text": "subjects",
-                      "color": "purple"
-                    }
-                  ]
+                  "text": "Then",
+                  "color": "purple"
                 },
+                " ",
                 {
-                  "parts": [
-                    "Malicious ",
-                    {
-                      "text": "senders",
-                      "color": "purple"
-                    }
-                  ]
+                  "text": "you",
+                  "color": "purple"
                 },
+                " ",
                 {
-                  "parts": [
-                    "Dangerous ",
-                    {
-                      "text": "attachment names",
-                      "color": "purple"
-                    }
-                  ]
-                }
+                  "text": "have",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "to",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "look",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "for",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "emails",
+                  "color": "blue"
+                },
+                ", ",
+                {
+                  "text": "like",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "subject",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "sender",
+                  "color": "purple"
+                },
+                ", ",
+                {
+                  "text": "attachment",
+                  "color": "purple"
+                },
+                " ",
+                {
+                  "text": "name",
+                  "color": "purple"
+                },
+                "."
               ]
             },
             {
               "type": "h4",
-              "text": "{Step 3}[yellow]: Search and Correlate",
+              "text": "{Step three}[yellow]: Search.",
               "parts": [
                 {
-                  "text": "Step 3",
+                  "text": "Step three",
                   "color": "yellow"
                 },
-                ": Search and Correlate"
+                ": Search."
               ]
             },
             {
               "type": "p",
               "parts": [
-                "The final step involves ",
                 {
-                  "text": "searching each indicator across the logs",
+                  "text": "And",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "this",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "where",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "step",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "three",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "come",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "into",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "picture",
+                  "color": "yellow"
+                },
+                ". ",
+                {
+                  "text": "You",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "have",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "to",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "search",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "each",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "indicator",
                   "color": "green"
                 },
-                ". Crucially, you must also ",
+                " ",
                 {
-                  "text": "search the nearby facts",
+                  "text": "across",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "logs",
+                  "color": "yellow"
+                },
+                ", ",
+                {
+                  "text": "but",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "also",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "search",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "yellow"
+                },
+                " ",
+                {
+                  "text": "nearby",
                   "color": "fuchsia"
                 },
-                " to uncover hidden connections and the full scope of an incident. This includes looking for:"
+                " ",
+                {
+                  "text": "facts",
+                  "color": "fuchsia"
+                },
+                ". ",
+                {
+                  "text": "Like",
+                  "color": "fuchsia"
+                },
+                ":"
               ]
             },
             {
@@ -103090,47 +103915,107 @@
               "items": [
                 {
                   "parts": [
-                    "The ",
                     {
-                      "text": "same user",
+                      "text": "Is",
                       "color": "fuchsia"
-                    }
+                    },
+                    " ",
+                    {
+                      "text": "it",
+                      "color": "fuchsia"
+                    },
+                    " ",
+                    {
+                      "text": "the",
+                      "color": "fuchsia"
+                    },
+                    " ",
+                    {
+                      "text": "same",
+                      "color": "fuchsia"
+                    },
+                    " ",
+                    {
+                      "text": "user",
+                      "color": "fuchsia"
+                    },
+                    "?"
                   ]
                 },
                 {
                   "parts": [
-                    "The ",
                     {
-                      "text": "same host",
+                      "text": "Same",
                       "color": "fuchsia"
-                    }
+                    },
+                    " ",
+                    {
+                      "text": "host",
+                      "color": "fuchsia"
+                    },
+                    "?"
                   ]
                 },
                 {
                   "parts": [
-                    "The ",
                     {
-                      "text": "same time window",
+                      "text": "Same",
                       "color": "fuchsia"
-                    }
+                    },
+                    " ",
+                    {
+                      "text": "time",
+                      "color": "fuchsia"
+                    },
+                    " ",
+                    {
+                      "text": "window",
+                      "color": "fuchsia"
+                    },
+                    "?"
                   ]
                 },
                 {
                   "parts": [
-                    "The ",
                     {
-                      "text": "same subnet",
+                      "text": "Same",
                       "color": "fuchsia"
-                    }
+                    },
+                    " ",
+                    {
+                      "text": "subnet",
+                      "color": "fuchsia"
+                    },
+                    "?"
                   ]
                 },
                 {
                   "parts": [
-                    "The ",
                     {
-                      "text": "same parent process",
+                      "text": "Same",
                       "color": "fuchsia"
-                    }
+                    },
+                    " ",
+                    {
+                      "text": "parent",
+                      "color": "fuchsia"
+                    },
+                    " ",
+                    {
+                      "text": "process",
+                      "color": "fuchsia"
+                    },
+                    " ",
+                    {
+                      "text": "we",
+                      "color": "fuchsia"
+                    },
+                    " ",
+                    {
+                      "text": "have",
+                      "color": "fuchsia"
+                    },
+                    "?"
                   ]
                 }
               ]
@@ -103138,50 +104023,218 @@
             {
               "type": "p",
               "parts": [
-                "This comprehensive correlation is how you ",
                 {
-                  "text": "find the hidden spread",
+                  "text": "And",
                   "color": "green"
                 },
-                " of an attack."
+                " ",
+                {
+                  "text": "that's",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "how",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "you",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "find",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "hidden",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "spread",
+                  "color": "green"
+                },
+                "."
               ]
             },
             {
               "type": "h3",
-              "text": "Key Takeaways",
+              "text": "Goal.",
               "parts": [
-                "Key Takeaways"
+                "Goal."
               ]
             },
             {
               "type": "p",
               "parts": [
-                "Remember, ",
                 {
-                  "text": "alerts are noise",
+                  "text": "You",
                   "color": "red"
                 },
-                " if not properly investigated. ",
+                " ",
                 {
-                  "text": "Leads are clues",
-                  "color": "green"
-                },
-                ", and ",
-                {
-                  "text": "indicators are how you scale the hunt",
-                  "color": "green"
-                },
-                ". The ultimate ",
-                {
-                  "text": "goal is not one detection",
+                  "text": "have",
                   "color": "red"
                 },
-                "; the ",
+                " ",
                 {
-                  "text": "goal is a scope",
+                  "text": "to",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "look",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "for",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "alerts",
+                  "color": "red"
+                },
+                ", ",
+                {
+                  "text": "which",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "are",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "noise",
+                  "color": "red"
+                },
+                ". ",
+                {
+                  "text": "Leads",
                   "color": "green"
                 },
-                " that reveals the full extent of a compromise."
+                " ",
+                {
+                  "text": "are",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "clues",
+                  "color": "green"
+                },
+                ", ",
+                {
+                  "text": "so",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "indicators",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "are",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "how",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "you",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "scale",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "the",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "hunt",
+                  "color": "green"
+                },
+                ". ",
+                {
+                  "text": "So",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "goal",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "not",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "one",
+                  "color": "red"
+                },
+                " ",
+                {
+                  "text": "detection",
+                  "color": "red"
+                },
+                ". ",
+                {
+                  "text": "The",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "goal",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "is",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "a",
+                  "color": "green"
+                },
+                " ",
+                {
+                  "text": "scope",
+                  "color": "green"
+                },
+                "."
               ]
             }
           ]
