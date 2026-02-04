@@ -159510,6 +159510,153 @@
               ]
             }
           ]
+        },
+        {
+          "id": "11",
+          "title": "Network Isolation",
+          "content": [
+            {
+              "type": "h3",
+              "text": "What is Network Isolation?",
+              "parts": [
+                "What is Network Isolation?"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Network isolation means physically or logically separating devices into different networks, limiting or blocking communication between them. This follows defense-in-depth principles to compartmentalize risks."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Why Use Network Isolation? Key Threats It Mitigates",
+              "parts": [
+                "Why Use Network Isolation? Key Threats It Mitigates"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Isolation protects against threats when an attacker, malware, or compromised device gains access. Here's a clean breakdown:"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    "**Lateral Movement**",
+                    ": If malware infects one device, it can't easily spread to others."
+                  ]
+                },
+                {
+                  "parts": [
+                    "**Untrusted Devices**",
+                    ": Guests, family, or less-secure user devices might carry infections or be adversary-controlled."
+                  ]
+                },
+                {
+                  "parts": [
+                    "**Vulnerable or Backdoored Devices**",
+                    ": Unpatched systems or those with hidden access points can launch attacks."
+                  ]
+                },
+                {
+                  "parts": [
+                    "**IoT Devices**",
+                    ": Smart TVs, doorbells, webcams, or bulbs often have poor security—no updates, factory backdoors. They're soft targets for botnets and can pivot into your main network."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "**IoT Risk Example**",
+                ": US Director of National Intelligence James Clapper warned in Senate testimony that IoT enables surveillance, tracking, and network breaches. Cybercriminals already exploit them in zombie networks."
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Common Attacks Enabled by Network Access",
+              "parts": [
+                "Common Attacks Enabled by Network Access"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Once inside, attackers exploit shared access:"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "| Attack Type | Description | Example |"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "|-------------|-------------|---------|"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "| Traffic Sniffing | Passively capture and log network data. | Eavesdropping on unencrypted traffic. |"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "| Man-in-the-Middle (MitM) | Intercept, alter, or inject traffic. | SSL stripping to remove encryption; injecting malware via HTTP. |"
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "| Direct Device Attacks | Target open services on devices. | Exploiting weak network shares, vulnerable SSH on smart TVs. |"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Implementation Trade-offs",
+              "parts": [
+                "Implementation Trade-offs"
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                {
+                  "parts": [
+                    "**Benefits**",
+                    ": Blocks propagation, reduces blast radius."
+                  ]
+                },
+                {
+                  "parts": [
+                    "**Drawbacks**",
+                    ": Adds admin work (e.g., managing VLANs, separate Wi-Fi SSIDs)."
+                  ]
+                },
+                {
+                  "parts": [
+                    "**Simple Start**",
+                    ": Use guest Wi-Fi for IoT/untrusted devices; firewall rules to control internet access and inter-network traffic."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "parts": [
+                "Balance based on your setup—high IoT or guest use justifies it. For home labs, tools like pfSense or router VLANs make it straightforward."
+              ]
+            }
+          ]
         }
       ]
     },
