@@ -159591,34 +159591,9 @@
               ]
             },
             {
-              "type": "p",
-              "parts": [
-                "| Attack Type | Description | Example |"
-              ]
-            },
-            {
-              "type": "p",
-              "parts": [
-                "|-------------|-------------|---------|"
-              ]
-            },
-            {
-              "type": "p",
-              "parts": [
-                "| Traffic Sniffing | Passively capture and log network data. | Eavesdropping on unencrypted traffic. |"
-              ]
-            },
-            {
-              "type": "p",
-              "parts": [
-                "| Man-in-the-Middle (MitM) | Intercept, alter, or inject traffic. | SSL stripping to remove encryption; injecting malware via HTTP. |"
-              ]
-            },
-            {
-              "type": "p",
-              "parts": [
-                "| Direct Device Attacks | Target open services on devices. | Exploiting weak network shares, vulnerable SSH on smart TVs. |"
-              ]
+              "type": "img",
+              "alt": "cheatsheet",
+              "src": "https://github.com/user-attachments/assets/f3b9ce56-1796-47d0-8c05-edf9e299885d"
             },
             {
               "type": "h3",
