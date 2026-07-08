@@ -1,5 +1,5 @@
 # Interactive Guide Builder
-
+n
 This is a dynamic, single-page application (SPA) that provides a comprehensive, intmeractive guide on various technical topics. It features a rich user interface for browsing content and a powerful, password-protected admin panel for content management, user adminisr tration, and data synchronization with GitHub.
 
 ## Features
